@@ -1,16 +1,18 @@
 $(function(){
-        function handleMenu() {
-
-        function toggleInfoPanel(anchor) {
-          var infoPanelEl = $(this).siblings('.menu-item-info');
-          infoPanelEl.toggleClass('is-visible');
-        }
-
-        $('.menu-item > a')
-          .mouseover(toggleInfoPanel)
-          .mouseout(toggleInfoPanel);
-    }
+    
      var $container = $('#main-menu');
+
+     function handleMenu() {
+            function toggleInfoPanel(anchor) {
+            var infoPanelEl = $(this).siblings('.menu-item-info');
+            infoPanelEl.toggleClass('is-visible');
+            }
+
+            $('.menu-item > a')
+            .mouseover(toggleInfoPanel)
+            .mouseout(toggleInfoPanel);
+    }
+
 
     // This funtion will create menu items
     function createMenuItems(data) {
@@ -26,7 +28,7 @@ $(function(){
             $infoPanel = $('div.menu-item-info', $element);
             data.infoPanel.forEach(function(entry){
                 $infoPanel.append(`
-                    <img src="`+entry.image+`">
+                    <img class="menu-item-info-image" src="`+entry.image+`">
                 `);
             });
         }
@@ -46,6 +48,9 @@ $(function(){
 
         // Add clearfix class
         $container.append('<div class="cf"></div>');
+
+        // Run handle menu 
+        handleMenu();
 
     },'json');
 

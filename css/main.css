@@ -39,6 +39,15 @@ body, * {
 
 }
 
+.menu-item-info-image {
+  float: left;
+  height: 120px;
+  width: auto;
+  padding: 0.3em;
+  margin: 0.2em;
+  border: 1px solid #666;
+}
+
 .cf {
   clear: both;
 }
