@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Reviews",
+        "infoPanel": [ {
+            "title": "EE TV",
+            "image": "http://o.aolcdn.com/hss/storage/midas/ff82e6a0b114a0a761fab0340ab88ca8/201107733/eefullbleed.jpg",
+            "product": "EE",
+            "score": 74
+        },{
+            "title": "Nexus 6",
+            "image": "http://o.aolcdn.com/hss/storage/midas/b8b79a39dc5998be97103ac142caf531/201074920/Nexus6-31.jpg",
+            "product": "Google",
+            "score": 86
+        },{
+            "title": "Band",
+            "image": "http://o.aolcdn.com/hss/storage/midas/f54d265d0d464c894db33534a986e6d2/201046092/microsoftbandlead.JPG",
+            "product": "Microsoft",
+            "score": 65
+        },{
+            "title": "Peak",
+            "image": "http://o.aolcdn.com/hss/storage/midas/4e3dca0494c90e36aa2df155419dcc20/201054814/P1010193.jpg",
+            "product": "Basis",
+            "score": 84
+        }]
+    },
+
+    {
+        "title": "Home",
+        "infoPanel": [ {
+            "title": "EE TV",
+            "image": "http://lorempixel.com/160/120/people/1",
+            "product": "EE",
+            "score": 74
+        },{
+            "title": "Nexus 6",
+            "image": "http://lorempixel.com/160/120/people/2",
+            "product": "Google",
+            "score": 86
+        },{
+            "title": "Band",
+            "image": "http://lorempixel.com/160/120/people/3",
+            "product": "Microsoft",
+            "score": 65
+        },{
+            "title": "Peak",
+            "image": "http://lorempixel.com/160/120/people/4",
+            "product": "Basis",
+            "score": 84
+        }]
+    },
+
+    {
+        "title": "About",
+        "infoPanel": [ {
+            "title": "EE TV",
+            "image": "http://lorempixel.com/160/120/business/1",
+            "product": "EE",
+            "score": 74
+        },{
+            "title": "Nexus 6",
+            "image": "http://lorempixel.com/160/120/business/2",
+            "product": "Google",
+            "score": 86
+        },{
+            "title": "Band",
+            "image": "http://lorempixel.com/160/120/business/3",
+            "product": "Microsoft",
+            "score": 65
+        },{
+            "title": "Peak",
+            "image": "http://lorempixel.com/160/120/business/4",
+            "product": "Basis",
+            "score": 84
+        }]
+    }
+]
